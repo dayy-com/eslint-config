@@ -1,0 +1,66 @@
+{
+  "name": "@dayy-com/eslint-config",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.1-beta.2",
+  "description": "dayy’s ESLint config with Prettier and support for Next.js, Sanity and TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dayy-com/eslint-config"
+  },
+  "author": "dayy GmbH <hi@dayy.de>",
+  "contributors": [
+    {
+      "name": "Hendrik Haack",
+      "email": "hendrik.haack@dayy.de"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://www.dayy.de/",
+  "exports": {
+    ".": "./modules/default.js",
+    "./base": "./modules/base.js",
+    "./next": "./modules/next.js",
+    "./sanity": "./modules/sanity.js",
+    "./prettierConfig": "./lib/prettier.js"
+  },
+  "peerDependencies": {
+    "@rushstack/eslint-patch": "^1.5.1",
+    "@sanity/eslint-config-studio": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "^14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.1.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.5.1",
+    "@sanity/eslint-config-studio": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-next": "^14.0.3",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.1.0"
+  },
+  "prettier": "./lib/prettier.js"
+}
