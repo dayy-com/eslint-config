@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "description": "dayy’s ESLint config with Prettier and support for Next.js, Sanity and TypeScript",
   "repository": {
     "type": "git",
